@@ -1,0 +1,18 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+Windows.64="res://gdnative/windows/libcgal.dll"
+X11.64="res://gdnative/linux/libcgal.so"
+OSX.64="res://gdnative/osx/libcgal.dylib"
+
+[dependencies]
+
+Windows.64=[  ]
+X11.64=[  ]
+OSX.64=[  ]
